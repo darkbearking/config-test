@@ -1,0 +1,13 @@
+#關於下面的spring.profiles.active這種屬性值的作用和寫法
+#可以從官網中的說明文檔中找到。（common spring boot properties）
+spring:
+  profiles: linux
+test:
+  user:
+    name: dark
+---
+spring:
+  profiles: windows
+test:
+  user:
+    name: bright
